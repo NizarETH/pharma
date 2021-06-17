@@ -1,0 +1,7 @@
+id,ville,name,address,latitude,longitude,phone,open
+1,Rabat,name1,address1,33.698065,-7.386167,600000000,Oui
+2,Rabat,name2,address2,33.748518,-7.299153,600000001,Oui
+3,Rabat,name3,address3,33.864310,-7.061813,600000002,Non
+4,Fes,name1,address1,33.934878,-6.943112,600000000,Oui
+5,Fes,name2,address2,33.976263,-6.891577,600000001,Non
+6,Rabat,name3,address3,34.035042,-6.818980,600000002,Oui

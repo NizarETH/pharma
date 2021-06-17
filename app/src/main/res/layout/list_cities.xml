@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/green1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:text="Choix de la ville"/>
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+
+            android:tint="@color/white"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/add"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+         android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/green1">
+
+        <EditText
+            android:id="@+id/ville"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+
+            android:imeOptions="actionSearch"
+            android:inputType="textCapSentences"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_corner"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="4dp"
+            android:hint="Nom de la ville"/>
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:alpha="0.4"
+            android:tint="@color/green1"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/chercher"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+         android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/empty_icon"
+            android:visibility="gone"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/box"/>
+        <TextView
+            android:id="@+id/empty_title"
+            android:visibility="gone"
+            android:layout_below="@id/empty_icon"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:textSize="30dp"
+            android:text="Pas de ville !"/>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ListView
+            android:id="@+id/list_cities"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+</LinearLayout>

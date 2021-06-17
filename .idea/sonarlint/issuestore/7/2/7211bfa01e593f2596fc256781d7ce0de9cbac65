@@ -1,0 +1,16 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(×°Ãž
+E
+java:S3740"/Provide the parametrized type for this generic.(Ùõ€Ê
+E
+java:S3740"/Provide the parametrized type for this generic.(Ùõ€Ê
+`	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(¸‰ï°úÿÿÿÿ
+`	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(·ÿñÔýÿÿÿÿ
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñì¹×8¾ÈÎ®¡/
+O
+java:S1143("4Remove this throw statement from this finally block.(·ÿñÔýÿÿÿÿ
+X
+java:S1163("=Refactor this code to not throw exceptions in finally blocks.(·ÿñÔýÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

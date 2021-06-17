@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Pharma" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q"> false </item>
+
+        <item name="colorPrimary">@color/green1</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/green2</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

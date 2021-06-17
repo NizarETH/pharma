@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="elevation">8dp</dimen>
+    <dimen name="margin_card">3dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--Alerts-->
+
+    <!--Text sizes-->
+
+    <!-- sliding menu width -->
+    <dimen name="menu_width_res">450dp</dimen>
+    <dimen name="menu_width_res_phone">250dp</dimen>
+
+    <!-- List MYITEM Max and Min Height -->
+
+    <!-- Floating Button-->
+
+    <dimen name="pv_pin_view_item_size">50dp</dimen>
+    <dimen name="pv_pin_view_item_spacing">5dp</dimen>
+    <dimen name="pv_pin_view_item_line_width">2dp</dimen>
+    <dimen name="pv_pin_view_cursor_width">2dp</dimen>
+
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+</resources>

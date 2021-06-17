@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:id="@+id/open_map">
+    <View
+        android:layout_marginLeft="6dp"
+        android:layout_width="8dp"
+        android:layout_height="100dp"
+        android:background="@color/green1"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="4dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/pharmacie"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"
+            >
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="Name"
+
+                android:textColor="@color/green2"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            >
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_weight="1"
+
+                android:textColor="@color/green2"
+                android:text="Addresse"/>
+            <ImageView
+                android:id="@+id/open"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                 android:layout_marginRight="30dp"
+                android:src="@drawable/open"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:tint="@color/green1"
+                android:src="@drawable/mobile"/>
+            <TextView
+                android:id="@+id/phone"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+
+                android:textColor="@color/gray"
+                android:text="+212 6 11 08 2010"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/location"/>
+            <TextView
+                android:id="@+id/location"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                android:text="Location"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

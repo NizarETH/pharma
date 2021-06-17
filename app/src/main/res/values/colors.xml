@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="TealLight1">#00ccb4</color>
+    <color name="TealLight2">#b3fff6</color>
+    <color name="TealLight3">#00ffe1</color>
+
+    <color name="TealSuperDark">#004038</color>
+
+    <color name="gray">#808080</color>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="accent_dark">#084b73</color>
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#2789e4</color>
+
+    <!-- The app wide background color -->
+    <color name="background">#dddddd</color>
+
+    <color name="Black">#000000</color>
+
+
+    <!-- Text color of the date in the Calendar widget -->
+
+    <!-- Text color of declined events in agenda view -->
+    <!-- Text color of non-declined events in agenda view -->
+    <!-- Background Color of present/future events in agenda view  -->
+    <!-- Background Color of past events in agenda view  -->
+    <!-- Color of the separator between the past and the present/future in agenda view  -->
+    <!-- General background color in agenda view  -->
+    <!-- Agenda day item text color  -->
+    <!-- Color of the event location's text in an agenda item  -->
+    <!-- Color of the event location's text in an agenda item  -->
+    <!-- Color of text in the calendar view selection menu -->
+    <!-- Light color of text in the calendar view selection menu -->
+    <!-- Color of the separator between items in the agenda list -->
+    <!-- Text color of a selected items in the agenda list - trumps all other text colors -->
+    <!-- Background color of a selected items in the agenda list -->
+    <!-- Text color of the "new event" hint in day and week views -->
+
+    <!-- Text color of a clicked event in the day/week view -->
+    <!-- background color for for clicked days in month view-->
+    <!-- background color for the past -->
+
+    <!-- Event info colors -->
+
+    <!-- Text color of declined events in widget view -->
+    <!-- Text color of non-declined events in widget view -->
+    <!-- Text color for all day events in widget view -->
+
+    <color name="Marron">#ff94214E</color>
+    <color name="light_gray">#dddddd</color>
+    <color name="transparentWhite">#88000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="soft_grey">#FF777777</color>
+    <color name="Yellow">#ffa713</color>
+    <color name="android_green">#FFA4C639</color>
+    <color name="honeycombish_blue">#FF58BAED</color>
+    <color name="RedLight">#ff7f7f</color>
+    <color name="green1">#009900</color>
+    <color name="green2">#00cc00</color>
+    <color name="Yellow0">#ffff00</color>
+    <color name="Yellow2">#ffd794</color>
+    <color name="YellowLight">#ffce13</color>
+    <color name="YellowGold">#FFBF4F</color>
+    <color name="Red">#f44336</color>
+    <color name="Blue">#0085ff</color>
+    <color name="Green">#009688</color>
+    <color name="Green1">#00CC00</color>
+    <color name="TealLight">#e0f2f1</color>
+    <color name="Teal">#008080</color>
+    <color name="TealDark">#00695c</color>
+    <color name="Teal0">#00c2c2</color>
+
+
+    <color name="three_round">#90a4ae</color>
+    <!-- Screens background color-->
+
+    <!-- dots inactive colors -->
+
+    <!-- dots active colors -->
+
+</resources>
